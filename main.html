@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>itsrdb | Web Store</title>
+    <!Use of External Style Sheet>
+    <link rel="stylesheet" href="styles-main.css">
+    
+    <!Use of Internal Style Sheet>
+    <style>
+        .section2 h2{
+            padding-left: 35px;
+            font-size: 50px;
+            line-height: 60px;
+            margin: 25px 0;
+        }
+        .row2 {
+            display: flex;
+        }
+        .column {
+            flex: 25%;
+        }
+        .column img{
+            max-width: 90%;
+            padding-left: 30px;
+        }
+        .column h4{
+            padding-left: 55px;
+            padding-bottom: 50px;
+        }
+        .section2 a{
+            color: #2c87f0;
+        }
+        .section2 a:visited {
+            color: black;
+        }
+        .section2 a:hover, a:active, a:focus {
+            color:#c33;
+        }
+    </style>
+</head>
+<body>
+    
+    <!Use of external Style sheet begins>
+    
+    <div class="header">
+    <div class="container">
+	<div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+    </div>
+        <nav>
+            <ul class="anotherheader">
+                <li>
+                    <a href=""><b>Cart</b></a>
+                </li>
+                <li>
+                    <a href=""><b>Wishlist</b></a>
+                </li>
+                <li>
+                    <a href=""><b>Gaming-Laptops</b></a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1> Teachers-day Sale is On!</h1>
+                <p> Encourage your students to play with these goodies.</p>
+                <h2> Discover great products </h2>
+                <ul>
+                    <li>
+                        <a href="#section2" class="btn">Explore Products &#8594</a>
+                    </li>
+                    <li>
+                        <a href="#section3" class="btn">User Profile &#8594</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="images/ps5-hybrid.png">
+            </div>
+        </div>
+    </div>
+    
+    <!Use of internal Style sheet begins>
+    
+    <div class="section2" id="section2">
+        <h2> Products </h2>
+        <div class="row2">
+            <div class="column">
+                <img src="images/game1.jpg">
+                <h4><a href="">The Last of Us 2</a></h4>
+            </div>
+            <div class="column">
+                <img src="images/game2.jpg">
+                <h4><a href="">Uncharted 4</a></h4>
+            </div>
+            <div class="column">
+                <img src="images/game3.jpg">
+                <h4><a href="">The Spiderman</a></h4>
+            </div>
+            <div class="column">
+                <img src="images/game4.jpg">
+                <h4><a href="">Gran Turismo</a></h4>
+            </div>
+        </div>
+    </div>
+    
+    <!Use of Inline Style begins>
+    
+    <div id="section3">
+        <h2 style="padding-left: 35px;
+            font-size: 45px;
+            line-height: 60px;
+            margin: 25px 0; padding-bottom: 25px">User Profile</h2>
+        <div>
+            <div style="display:flex; flex-basis: 50%">
+            <img style="width: 300px; padding-left: 35px; padding-bottom: 35px;" src="images/user.jpeg">
+                <div style="padding-left: 45px;">
+                    <div style="padding-bottom: 15px">
+                        <h2 style="display: inline;">User name :</h2><p style="font-size:25px; font-family:cursive; display: inline; color: gray"> Rohit Borkar </p><br>
+                    </div>
+                    <div style="padding-bottom: 15px">
+                        <h2 style="display: inline">User email :</h2><p style="font-size:23px; font-family:cursive; display: inline; color: gray"> 2019134@iiitmdj.ac.in </p><br>
+                    </div>
+                    <div style="padding-bottom: 15px">
+                        <h2 style="display: inline">Profession :</h2><p style="font-size:23px; font-family:cursive; display: inline; color: gray"> CSE Student at IIITDMJ </p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="background: #000; color: #8a8a8a; font-size: 14px; padding: 30px 0 20px">
+        <h3 style="text-align: center; font-family:serif"> &#169 ROHIT D. BORKAR </h3>
+    </div>
+    
+    <!End of file>
+    <!BY ROHIT BORKAR>
+    
+</body>
+</html>
